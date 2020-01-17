@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
-        <h1 id= "title" class="display-4">New York Times Search</h1>
+        <h1 class="display-4">New York Times Search</h1>
     </div>
 
     <div class="card">
@@ -23,13 +23,13 @@
 
         <h6>Search Term:</h6>
         <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <input id= "searchTerm" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
         </div>
 
         <h6>Number of Records to Retrieve:</h6>
 
         <div class="input-group mb-3">
-        <select class="custom-select" id="inputGroupSelect02">
+        <select class="custom-select" id="numRecords">
             <option selected>0</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -42,16 +42,16 @@
          <h6>Start Year:</h6>
 
         <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <input id= "startYear" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
         </div>
 
         <h6>End Year:</h6>
 
         <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <input id= "endYear" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
         </div>  
-				<button type="button" class="btn btn-light">Search</button>
-				<button type="button" class="btn btn-light">Clear Results</button>
+				<button id= "searchBtn" type="button" class="btn btn-light">Search</button>
+				<button id= "clearBtn" type="button" class="btn btn-light">Clear Results</button>
 
         </div>
     </div>
@@ -63,12 +63,16 @@
 				<h6>Top Articles</h6>
 			</div>
 			<div class= "card-body">
+			
+			<p id= "searchResults">
+
+			</p>
 			</div>
 		</div>
 		
-		<div id= "footer" class="card-footer text-muted">
+		<footer class="card-footer text-muted">
 			Made with lots and lots of ♥
-		</div>
+		</footer>
 		</body>
 		
     </html>
