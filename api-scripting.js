@@ -10,8 +10,16 @@ var APIkey = "0n6rRadT3Dw9bHSjuJMAcBwlNglDHZgK";
 // Example of a call
 // _____________________________
 // https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=yourkey
-//
+// 
+// With user's search term implemented
 // "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchTermVariable + "&api-key=0n6rRadT3Dw9bHSjuJMAcBwlNglDHZgK"
 // 
+// 
 
+// 
+// $.ajax({
+//     url: ,
+//     method: "GET"
+// }).then(function(response){
 
+// });
