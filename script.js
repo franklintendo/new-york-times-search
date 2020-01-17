@@ -23,4 +23,8 @@
 
 // Start and End Year
     var startYear = "1999";
-    
+    var endYear = "2005";
+
+    function cleanYear() {
+        
+    }

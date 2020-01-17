@@ -6,9 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times Search</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-</body>
-</html>
+    <div class="jumbotron jumbotron-fluid">
+        <h1 id= "title" class="display-4">New York Times Search</h1>
+    </div>
+
+    <div class="card">
+
+      <div class="card-header">
+        <h6>Search Parameters</h6>
+      </div>
+
+        <div class="card-body">
+
+        <h6>Search Term:</h6>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+        <h6>Number of Records to Retrieve:</h6>
+
+        <div class="input-group mb-3">
+        <select class="custom-select" id="inputGroupSelect02">
+            <option selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        </div>
+
+         <h6>Start Year:</h6>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+        <h6>End Year:</h6>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>  
+				<button type="button" class="btn btn-light">Search</button>
+				<button type="button" class="btn btn-light">Clear Results</button>
+
+        </div>
+    </div>
+				
+		
+    <div class="card">
+
+      <div class="card-header">
+				<h6>Top Articles</h6>
+			</div>
+			<div class= "card-body">
+			</div>
+		</div>
+		
+		<div id= "footer" class="card-footer text-muted">
+			Made with lots and lots of ♥
+		</div>
+		</body>
+		
+    </html>
